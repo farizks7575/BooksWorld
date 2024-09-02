@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book World</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="data:image/png;base64,...">
+    <style>
+        @keyframes blink {
+            0%, 100% { color: #0277bd; }
+            50% { color: white; }
+        }
+        h1 {
+            text-align: center;
+            font-size: 55px;
+            animation: blink 1s infinite;
+        }
+    </style>
+
+
+
+</head>
+<body>
+    <header>
+        <h1>
+            <i class="fa-solid fa-book"></i>
+            Book World
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#books">Books</a></li>
+            </ul>
+            <div class="search-container">
+                <input type="text" id="search-bar" placeholder="Search...">
+                <button id="search-button">Search</button>
+            </div>
+        </nav>
+        
+        <button>
+            <i class="fa-solid fa-right-to-bracket" style="color: rgb(255, 255, 255);"></i> Login
+        </button>
+    </header>
+    
+    <main>
+        <section id="home" class="intro">
+            <h2>Welcome to Book World</h2>
+            <p>Discover a wide range of books from various genres and authors. Whether you're looking for the latest bestsellers, classic literature, or something unique, Book World has something for every book lover. Explore our collection and find your next great read! Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem sed repellat, obcaecati sint molestiae velit! Reiciendis, voluptas asperiores! Pariatur qui repellendus nostrum obcaecati excepturi quia similique commodi aspernatur, dolorum illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolor expedita error veritatis consequatur tempora, excepturi, voluptas officiis et nobis laudantium maxime doloribus autem odit at dolorem nihil? Rem, velit!</p>
+        </section>
+        
+
+        <section  id="about" class="about">
+            <h2 style="text-align: center;">About Us</h2>
+            <p>At Book World, our mission is to foster a love for reading and to provide a vast selection of books to suit every taste. We are dedicated to offering quality books, exceptional service, and a welcoming environment where readers can find their next favorite book. Whether you're a lifelong reader or just starting out, we have something for everyone! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eum perferendis dolor, ab exercitationem possimus culpa recusandae quam? Odit sed recusandae earum porro amet vero error a debitis reiciendis voluptatum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta ad neque et nulla. Deserunt consequatur aliquam blanditiis ipsum sunt vel. Placeat odio laudantium aliquam sapiente eos ipsam quidem odit magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta blanditiis rem quam, hic dicta asperiores consectetur ad ratione nulla ex eaque architecto enim commodi corporis quia iure quasi cupiditate totam.</p>
+        </section>
+        <h1 style="text-align: center; color: #0277bd; font-size: 55px;">
+            <marquee behavior="scroll" direction="right">Available Books&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Available Books&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Available Books&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Available Books&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspAvailable Books&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspAvailable Books</marquee>
+          </h1>
+          <br>
+        <section id="books" class="book-list">
+            <article class="book">
+                <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1603885729i/50523477.jpg" alt="1984">
+                <div class="book-info">
+                    <h3>1984</h3>
+                    <p>Author: Tasha Suri</p><br>
+                    <button class="buy-button">Buy</button>
+                </div>
+            </article>
+            <article class="book">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwaGRuqK55EijSHMXb-HNQOYPb-VbI_7aKXA&s" alt="To Kill a Mockingbird">
+                <div class="book-info">
+                    <h3>To Kill a Mockingbird</h3>
+                    <p>Author: Harper Lee</p><br>
+                    <button class="buy-button">Buy</button>
+                </div>
+            </article>
+            <article class="book">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR43c_sIDRRelE0KXvFgrKAfvh9AJ6XBflzGQ&s" alt="The Great Gatsby">
+                <div class="book-info">
+                    <h3>The Great Gatsby</h3>
+                    <p>Author: F. Scott Fitzgerald</p><br>
+                    <button class="buy-button">Buy</button>
+                </div>
+            </article>
+            <article class="book">
+                <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1699644888i/199927030._UX160_.jpg" alt="Moby Dick">
+                <div class="book-info">
+                    <h3>Moby Dick</h3>
+                    <p>Author: Herman Melville</p><br>
+                    <button class="buy-button">Buy</button>
+                </div>
+            </article>
+            <article class="book">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzn30-XAgbrycGWXeUDdVGbTb0cIHg1d8X2A&s" alt="Pride and Prejudice">
+                <div class="book-info">
+                    <h3>Take My Hand</h3>
+                    <p>Author: Jane Austen</p><br>
+                    <button class="buy-button">Buy</button>
+                </div>
+            </article>
+            <article class="book">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7vW_pjB-Q9qKfFoJIE_z9hmEgEmvw-RBXRw&s" alt="The Catcher in the Rye">
+                <div class="book-info">
+                    <h3>The Catcher in the Rye</h3>
+                    <p>Author: J.D. Salinger</p><br>
+                    <button class="buy-button">Buy</button>
+                </div>
+            </article>
+            <article class="book">
+                <img src="https://acappellabooks.cdn.bibliopolis.com/api/ingram/images/0345339711.jpg?auto=webp&v=1684356484" alt="The Hobbit">
+                <div class="book-info">
+                    <h3>The Hobbit</h3>
+                    <p>Author: J.R.R. Tolkien</p><br>
+                    <button class="buy-button">Buy</button>
+                </div>
+            </article>
+            <article class="book">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNgdPmP5q_86dAIAZ8T_ufJKM50VzeC0EFOg&s" alt="War and Peace">
+                <div class="book-info">
+                    <h3>War and Peace</h3>
+                    <p>Author: Leo Tolstoy</p><br>
+                    <button class="buy-button">Buy</button>
+                </div>
+            </article>
+            <article class="book">
+                <img src="https://media.wired.com/photos/5dfc0b056abd1f00080da8ac/master/w_1600%2Cc_limit/Science_BottleLies-hc-c.jpg" alt="The Odyssey">
+                <div class="book-info">
+                    <h3>The Odyssey</h3>
+                    <p>Author: Homer</p><br>
+                    <button class="buy-button">Buy</button>
+                </div>
+            </article>
+            <article class="book">
+                <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1298417570i/22463._UX160_.jpg" alt="Catch-22">
+                <div class="book-info">
+                    <h3>Catch-22</h3>
+                    <p>Author: Joseph Heller</p><br>
+                    <button class="buy-button">Buy</button>
+                </div>
+            </article>
+            <article class="book">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgNCvm4K23azCw3nhf10VtgSKN9UXIonw3LQ&s" alt="Brave New World">
+                <div class="book-info">
+                    <h3>Brave New World</h3>
+                    <p>Author: Aldous Huxley</p><br>
+                    <button class="buy-button">Buy</button>
+                </div>
+            </article>
+            <article class="book">
+                <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555447414i/44767458._UX187_.jpg" alt="Les Misérables">
+                <div class="book-info">
+                    <h3>Les Misérables</h3>
+                    <p>Author: Victor Hugo</p><br>
+                    <button class="buy-button">Buy</button>
+                </div>
+            </article>
+        </section>
+    </main><br><br>
+    <footer>
+        <p>&copy; 2024 Book World. All rights reserved.</p>
+    </footer>
+</body>
+</html>
